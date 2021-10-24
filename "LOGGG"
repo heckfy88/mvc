@@ -2373,3 +2373,179 @@ java.lang.NullPointerException: null
 2021-10-24 02:16:55.336  INFO 6353 --- [http-nio-8080-exec-8] o.a.c.c.C.[Tomcat].[localhost].[/]       : 0:0:0:0:0:0:0:1::Cookie:: {auth , 1635030986659}
 2021-10-24 02:16:59.664  INFO 6353 --- [http-nio-8080-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Requested Resource:: GET /app/list
 2021-10-24 02:16:59.669  INFO 6353 --- [http-nio-8080-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : 0:0:0:0:0:0:0:1::Cookie:: {auth , 1635030986659}
+2021-10-24 19:33:17.721  INFO 10817 --- [main] com.contact_book.demo.RESTAppTests       : Starting RESTAppTests using Java 16.0.1 on ruslans-air with PID 10817 (started by ruslanagaev in /Users/ruslanagaev/Downloads/demo)
+2021-10-24 19:33:17.734  INFO 10817 --- [main] com.contact_book.demo.RESTAppTests       : No active profile set, falling back to default profiles: default
+2021-10-24 19:33:19.494  INFO 10817 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2021-10-24 19:33:19.505  INFO 10817 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-24 19:33:19.505  INFO 10817 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-24 19:33:19.596  INFO 10817 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-24 19:33:19.596  INFO 10817 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1817 ms
+2021-10-24 19:33:20.047  INFO 10817 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : RequestLoggingFilterInitialized
+2021-10-24 19:33:20.047  INFO 10817 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : AuthentificationFilter
+2021-10-24 19:33:20.802  INFO 10817 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-10-24 19:33:21.103  INFO 10817 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 58510 (http) with context path ''
+2021-10-24 19:33:21.116  INFO 10817 --- [main] com.contact_book.demo.RESTAppTests       : Started RESTAppTests in 4.004 seconds (JVM running for 5.906)
+2021-10-24 19:33:21.606  INFO 10817 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Requested Resource:: POST /LoginServlet
+2021-10-24 19:33:21.610  INFO 10817 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Request Params::{login=logged}
+2021-10-24 19:33:21.613  INFO 10817 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Request Params::{password=logged}
+2021-10-24 19:33:21.695  INFO 10817 --- [http-nio-auto-1-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-24 19:33:21.695  INFO 10817 --- [http-nio-auto-1-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-24 19:33:21.702  INFO 10817 --- [http-nio-auto-1-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2021-10-24 19:33:21.704  INFO 10817 --- [http-nio-auto-1-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Requested Resource:: GET /api/list
+2021-10-24 19:33:21.705  INFO 10817 --- [http-nio-auto-1-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Request Params::{name=Ivan}
+2021-10-24 19:33:21.705  INFO 10817 --- [http-nio-auto-1-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Cookie:: {auth , 1635093201614}
+2021-10-24 19:35:45.878  INFO 10831 --- [main] com.contact_book.demo.RESTAppTests       : Starting RESTAppTests using Java 16.0.1 on ruslans-air with PID 10831 (started by ruslanagaev in /Users/ruslanagaev/Downloads/demo)
+2021-10-24 19:35:45.894  INFO 10831 --- [main] com.contact_book.demo.RESTAppTests       : No active profile set, falling back to default profiles: default
+2021-10-24 19:35:48.172  INFO 10831 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2021-10-24 19:35:48.183  INFO 10831 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-24 19:35:48.184  INFO 10831 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-24 19:35:48.270  INFO 10831 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-24 19:35:48.271  INFO 10831 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2285 ms
+2021-10-24 19:35:48.823  INFO 10831 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : RequestLoggingFilterInitialized
+2021-10-24 19:35:48.823  INFO 10831 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : AuthentificationFilter
+2021-10-24 19:35:49.793  INFO 10831 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-10-24 19:35:50.272  INFO 10831 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 58530 (http) with context path ''
+2021-10-24 19:35:50.290  INFO 10831 --- [main] com.contact_book.demo.RESTAppTests       : Started RESTAppTests in 5.164 seconds (JVM running for 6.973)
+2021-10-24 19:35:50.744  INFO 10831 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Requested Resource:: POST /LoginServlet
+2021-10-24 19:35:50.746  INFO 10831 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Request Params::{login=logged}
+2021-10-24 19:35:50.747  INFO 10831 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Request Params::{password=logged}
+2021-10-24 19:35:50.815  INFO 10831 --- [http-nio-auto-1-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-24 19:35:50.815  INFO 10831 --- [http-nio-auto-1-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-24 19:35:50.819  INFO 10831 --- [http-nio-auto-1-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2021-10-24 19:35:50.820  INFO 10831 --- [http-nio-auto-1-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Requested Resource:: GET /api/0/view
+2021-10-24 19:35:50.821  INFO 10831 --- [http-nio-auto-1-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Cookie:: {auth , 1635093350748}
+2021-10-24 19:36:44.535  INFO 10851 --- [main] com.contact_book.demo.RESTAppTests       : Starting RESTAppTests using Java 16.0.1 on ruslans-air with PID 10851 (started by ruslanagaev in /Users/ruslanagaev/Downloads/demo)
+2021-10-24 19:36:44.540  INFO 10851 --- [main] com.contact_book.demo.RESTAppTests       : No active profile set, falling back to default profiles: default
+2021-10-24 19:36:46.633  INFO 10851 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2021-10-24 19:36:46.643  INFO 10851 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-24 19:36:46.643  INFO 10851 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-24 19:36:46.754  INFO 10851 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-24 19:36:46.754  INFO 10851 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2166 ms
+2021-10-24 19:36:47.163  INFO 10851 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : RequestLoggingFilterInitialized
+2021-10-24 19:36:47.164  INFO 10851 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : AuthentificationFilter
+2021-10-24 19:36:47.894  INFO 10851 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-10-24 19:36:48.216  INFO 10851 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 58542 (http) with context path ''
+2021-10-24 19:36:48.229  INFO 10851 --- [main] com.contact_book.demo.RESTAppTests       : Started RESTAppTests in 4.288 seconds (JVM running for 5.875)
+2021-10-24 19:36:48.692  INFO 10851 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Requested Resource:: POST /LoginServlet
+2021-10-24 19:36:48.694  INFO 10851 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Request Params::{login=logged}
+2021-10-24 19:36:48.694  INFO 10851 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Request Params::{password=logged}
+2021-10-24 19:36:48.767  INFO 10851 --- [http-nio-auto-1-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-24 19:36:48.768  INFO 10851 --- [http-nio-auto-1-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-24 19:36:48.781  INFO 10851 --- [http-nio-auto-1-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2021-10-24 19:36:48.783  INFO 10851 --- [http-nio-auto-1-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Requested Resource:: GET /api/list
+2021-10-24 19:36:48.784  INFO 10851 --- [http-nio-auto-1-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Cookie:: {auth , 1635093408696}
+2021-10-24 19:36:48.875  INFO 10851 --- [http-nio-auto-1-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Requested Resource:: POST /LoginServlet
+2021-10-24 19:36:48.876  INFO 10851 --- [http-nio-auto-1-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Request Params::{login=logged}
+2021-10-24 19:36:48.877  INFO 10851 --- [http-nio-auto-1-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Request Params::{password=logged}
+2021-10-24 19:36:48.882  INFO 10851 --- [http-nio-auto-1-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Requested Resource:: GET /api/0/view
+2021-10-24 19:36:48.884  INFO 10851 --- [http-nio-auto-1-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Cookie:: {auth , 1635093408878}
+2021-10-24 19:36:48.911  INFO 10851 --- [http-nio-auto-1-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Requested Resource:: POST /LoginServlet
+2021-10-24 19:36:48.912  INFO 10851 --- [http-nio-auto-1-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Request Params::{login=logged}
+2021-10-24 19:36:48.913  INFO 10851 --- [http-nio-auto-1-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Request Params::{password=logged}
+2021-10-24 19:36:48.935  INFO 10851 --- [http-nio-auto-1-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Requested Resource:: DELETE /api/0/delete
+2021-10-24 19:36:48.936  INFO 10851 --- [http-nio-auto-1-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Cookie:: {auth , 1635093408913}
+2021-10-24 19:36:48.965  INFO 10851 --- [http-nio-auto-1-exec-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Requested Resource:: POST /LoginServlet
+2021-10-24 19:36:48.965  INFO 10851 --- [http-nio-auto-1-exec-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Request Params::{login=logged}
+2021-10-24 19:36:48.965  INFO 10851 --- [http-nio-auto-1-exec-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Request Params::{password=logged}
+2021-10-24 19:36:48.968  INFO 10851 --- [http-nio-auto-1-exec-8] o.a.c.c.C.[Tomcat].[localhost].[/]       : Requested Resource:: PUT /api/0/edit
+2021-10-24 19:36:48.968  INFO 10851 --- [http-nio-auto-1-exec-8] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Cookie:: {auth , 1635093408965}
+2021-10-24 19:36:48.989 ERROR 10851 --- [http-nio-auto-1-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at com.contact_book.demo.Service.ContactBookService.putContact(ContactBookService.kt:47) ~[classes/:na]
+	at com.contact_book.demo.Controller.RESTController.putContact(RESTController.kt:43) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:684) ~[tomcat-embed-core-9.0.53.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.53.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at com.contact_book.demo.Filter.RequestLoggingFilter.doFilter(RequestLoggingFilter.kt:41) ~[classes/:na]
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:57) ~[tomcat-embed-core-9.0.53.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at com.contact_book.demo.Filter.AuthentificationFilter.doFilter(AuthentificationFilter.kt:48) ~[classes/:na]
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:57) ~[tomcat-embed-core-9.0.53.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-10-24 19:36:49.102  INFO 10851 --- [http-nio-auto-1-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Requested Resource:: POST /LoginServlet
+2021-10-24 19:36:49.107  INFO 10851 --- [http-nio-auto-1-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Request Params::{login=logged}
+2021-10-24 19:36:49.108  INFO 10851 --- [http-nio-auto-1-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Request Params::{password=logged}
+2021-10-24 19:36:49.120  INFO 10851 --- [http-nio-auto-1-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Requested Resource:: GET /api/0/view
+2021-10-24 19:36:49.120  INFO 10851 --- [http-nio-auto-1-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Cookie:: {auth , 1635093409109}
+2021-10-24 19:36:49.167  INFO 10851 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Requested Resource:: POST /LoginServlet
+2021-10-24 19:36:49.168  INFO 10851 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Request Params::{login=logged}
+2021-10-24 19:36:49.168  INFO 10851 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Request Params::{password=logged}
+2021-10-24 19:36:49.188  INFO 10851 --- [http-nio-auto-1-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Requested Resource:: GET /api/list
+2021-10-24 19:36:49.188  INFO 10851 --- [http-nio-auto-1-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Request Params::{name=Ivan}
+2021-10-24 19:36:49.188  INFO 10851 --- [http-nio-auto-1-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Cookie:: {auth , 1635093409168}
+2021-10-24 19:36:49.217  INFO 10851 --- [http-nio-auto-1-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Requested Resource:: POST /LoginServlet
+2021-10-24 19:36:49.219  INFO 10851 --- [http-nio-auto-1-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Request Params::{login=logged}
+2021-10-24 19:36:49.219  INFO 10851 --- [http-nio-auto-1-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Request Params::{password=logged}
+2021-10-24 19:36:49.226  INFO 10851 --- [http-nio-auto-1-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Requested Resource:: POST /api/add
+2021-10-24 19:36:49.226  INFO 10851 --- [http-nio-auto-1-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Cookie:: {auth , 1635093409219}
+2021-10-24 19:37:50.077  INFO 10857 --- [main] com.contact_book.demo.RESTAppTests       : Starting RESTAppTests using Java 16.0.1 on ruslans-air with PID 10857 (started by ruslanagaev in /Users/ruslanagaev/Downloads/demo)
+2021-10-24 19:37:50.084  INFO 10857 --- [main] com.contact_book.demo.RESTAppTests       : No active profile set, falling back to default profiles: default
+2021-10-24 19:37:51.981  INFO 10857 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2021-10-24 19:37:51.992  INFO 10857 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-24 19:37:51.992  INFO 10857 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-24 19:37:52.084  INFO 10857 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-24 19:37:52.084  INFO 10857 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1946 ms
+2021-10-24 19:37:52.577  INFO 10857 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : RequestLoggingFilterInitialized
+2021-10-24 19:37:52.578  INFO 10857 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : AuthentificationFilter
+2021-10-24 19:37:53.370  INFO 10857 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-10-24 19:37:53.700  INFO 10857 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 58556 (http) with context path ''
+2021-10-24 19:37:53.714  INFO 10857 --- [main] com.contact_book.demo.RESTAppTests       : Started RESTAppTests in 4.238 seconds (JVM running for 5.813)
+2021-10-24 19:37:54.177  INFO 10857 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Requested Resource:: POST /LoginServlet
+2021-10-24 19:37:54.178  INFO 10857 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Request Params::{login=logged}
+2021-10-24 19:37:54.180  INFO 10857 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Request Params::{password=logged}
+2021-10-24 19:37:54.259  INFO 10857 --- [http-nio-auto-1-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-24 19:37:54.260  INFO 10857 --- [http-nio-auto-1-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-24 19:37:54.264  INFO 10857 --- [http-nio-auto-1-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2021-10-24 19:37:54.266  INFO 10857 --- [http-nio-auto-1-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Requested Resource:: PUT /api/0/edit
+2021-10-24 19:37:54.266  INFO 10857 --- [http-nio-auto-1-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : 127.0.0.1::Cookie:: {auth , 1635093474181}

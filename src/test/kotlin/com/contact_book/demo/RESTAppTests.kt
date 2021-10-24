@@ -45,11 +45,11 @@ class RESTAppTests {
 
     private fun getCookieForUser(login: String, password: String, loginUrl: String): String? {
 
-        var newMap: MultiValueMap<String, String> = LinkedMultiValueMap()
+        val newMap: MultiValueMap<String, String> = LinkedMultiValueMap()
         newMap.set("login", login)
         newMap.set("password", password)
 
-        var loginResponse: ResponseEntity<String> =
+        val loginResponse: ResponseEntity<String> =
             testRestTemplate.postForEntity(
                 loginUrl,
                 HttpEntity(
@@ -88,6 +88,27 @@ class RESTAppTests {
 
         val response = testRestTemplate.exchange(
             "/api/list",
+            HttpMethod.GET,
+            HttpEntity(contact.values, headers),
+            Collection::class.java
+        )
+        assertEquals(HttpStatus.OK, response.statusCode)
+        assertNotNull(response.body)
+
+    }
+
+    @Test
+    fun `getList returns with search query returns status 200`() {
+
+
+        val contact: ConcurrentHashMap<Int, Contact> = ConcurrentHashMap()
+
+        contact.put(0, Contact("Ivan", "Ivanoff", "32"))
+        contact.put(1, Contact("van", "off", "302"))
+        contact.put(2, Contact("an", "Io", "3200"))
+
+        val response = testRestTemplate.exchange(
+            "/api/list?name=Ivan",
             HttpMethod.GET,
             HttpEntity(contact.values, headers),
             Collection::class.java
