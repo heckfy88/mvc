@@ -6,6 +6,7 @@ import com.contact_book.demo.Service.ContactBookService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
+import org.springframework.security.access.annotation.Secured
 import org.springframework.web.bind.annotation.*
 import java.util.concurrent.ConcurrentHashMap
 
@@ -44,7 +45,7 @@ class RESTController @Autowired constructor(val contactBook: ContactBookService)
             return ResponseEntity(editedContact, HttpStatus.OK)
     }
 
-
+    @Secured("ROLE_ADMIN")
     @DeleteMapping("/{id}/delete")
     fun deleteContact(@PathVariable("id") id: Int) {
         if (contactBook.checkKey(id)) {

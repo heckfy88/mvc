@@ -3,26 +3,29 @@ package com.contact_book.demo.Controller
 import com.contact_book.demo.Model.Contact
 import com.contact_book.demo.Service.ContactBookService
 import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.security.access.annotation.Secured
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model
 import org.springframework.web.bind.annotation.*
 
 @Controller
-@RequestMapping("/app")
 class MVCController @Autowired constructor(val contactBook: ContactBookService) {
 
-    @GetMapping("/add")
+    @GetMapping("/login")
+    fun showLoginForm(): String = "login"
+
+    @GetMapping("/app/add")
     fun showAddContactForm(): String = "addContactForm"
 
 
-    @PostMapping("/add")
+    @PostMapping("/app/add")
     fun addContact(@ModelAttribute form: Contact, model: Model): String {
         contactBook.addContact(form)
         return "addContactForm"
     }
 
 
-    @GetMapping("/list")
+    @GetMapping("/app/list")
     fun showList(
         model: Model,
         @RequestParam(required = false) firstName: String?,
@@ -33,7 +36,7 @@ class MVCController @Autowired constructor(val contactBook: ContactBookService) 
         return "showContactList"
     }
 
-    @GetMapping("/{id}/view")
+    @GetMapping("/app/{id}/view")
     fun getContact(
         @PathVariable("id") id: Int,
         model: Model,
@@ -47,7 +50,7 @@ class MVCController @Autowired constructor(val contactBook: ContactBookService) 
         }
     }
 
-    @GetMapping("/{id}/edit")
+    @GetMapping("/app/{id}/edit")
     fun getUpdatePage(@PathVariable("id") id: Int, model: Model): String {
         return if (contactBook.checkKey(id)) {
             "editContactForm"
@@ -56,7 +59,7 @@ class MVCController @Autowired constructor(val contactBook: ContactBookService) 
         }
     }
 
-    @PostMapping("/{id}/edit")
+    @PostMapping("/app/{id}/edit")
     fun updateContact(
         @PathVariable("id") id: Int,
         @ModelAttribute form: Contact
@@ -69,16 +72,15 @@ class MVCController @Autowired constructor(val contactBook: ContactBookService) 
         }
     }
 
-    @GetMapping("/{id}/delete")
+    @Secured("ROLE_ADMIN")
+    @GetMapping("/app/{id}/delete")
     fun deleteContact(
         @PathVariable("id") id: Int,
         model: Model
     ): String {
-        return if (contactBook.checkKey(id)) {
+        if (contactBook.checkKey(id)) {
             contactBook.deleteContact(id)
-            "deleteSuccess"
-        } else {
-            "errorPage"
         }
+        return "deleteSuccess"
     }
 }

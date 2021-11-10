@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+</head>
+<body>
+<form method="post" th:action="@{/perform_login}">
+    <h1>It's a login page, to log in, get it, pal?</h1>
+    <label>
+        <input name="login" placeholder="That's for your login, pal">
+    </label>
+    <label>
+        <input name="password" placeholder="Prolly for password, I dunno">
+    </label>
+    <p>
+        <input type="submit">
+    </p>
+</form>
+</body>
+</html>
